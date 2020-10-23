@@ -1,0 +1,76 @@
+@import  url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+body {
+    background-image: url("jack-nicholson.jpg");
+    font-family: 'Piazzolla', serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 25px;
+    font-family: 'Piazzolla', serif;
+}
+
+.container {
+    display: flex;
+    min-width: 400px;
+    font-size: 40px;
+    text-align: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+}
+
+.box {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.box1 { background: #2ed573; }
+.box2 { background: #1e90ff; }
+.box3 { background: #c56cf0; }
+
+p {
+    background-color: rgba(255, 255, 255, 0.6);
+    color:black;
+    font-size: 20px;
+}
+
+.box5 { 
+    background-image: url("lotr.jpg");
+    background-size: contain;
+    color: orange;
+}
+.box6 { 
+    background-image: url("trainspotting.jpg"); 
+    background-size: contain;
+    color: black;
+}
+.box7 { 
+    background-image: url("artwork-pennywise.jpg"); 
+    background-size: contain;
+    color: white;
+}
+.box8 { background-image: url("jarhead.jpg");
+background-size: contain;
+color: black;
+}
+.box9 { background-image: url("clockworkorange.jpg");
+    background-size: contain;
+    color: blue
+}
+
+
+
+h1, h2, h3, h4, h5 {
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+}

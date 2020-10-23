@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+body {
+    background-image: url('manchester.jpg');
+    background-size: cover; 
+    font-family: 'Piazzolla', serif;
+}
+
+/* ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+} */
+
+/* h1{
+    text-align: center;
+} */
+
+.container {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+}
+
+.box {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.box1 { background: #2ed573; }
+.box2 { background: #1e90ff; }
+.box3 { background: #c56cf0; }
+
+p {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}

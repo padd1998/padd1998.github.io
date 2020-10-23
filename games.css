@@ -1,0 +1,44 @@
+@import  url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+body {
+    background-image: url("mike-tyson.jpg");
+    background-size: cover;
+    font-family: 'Piazzolla', serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 30px;
+    flex-wrap: wrap;
+} */
+
+.container {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+}
+
+.box {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.box1 { background: #2ed573; }
+.box2 { background: #1e90ff; }
+.box3 { background: #c56cf0; }
+
+p {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
